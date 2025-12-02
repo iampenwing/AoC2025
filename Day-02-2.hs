@@ -19,8 +19,7 @@ makeRange s = (start, end)
   where (start:(end:_)) = Splitter.splitOn "-" s
 
 checkRange :: String -> [Int]
-checkRange s = iCheckRange (start, end) []
-  where (start, end) = makeRange s
+checkRange s = iCheckRange (makeRange s) []
 
 iCheckRange :: (String, String) -> [Int] -> [Int]
 iCheckRange (s, e) l
@@ -30,6 +29,7 @@ iCheckRange (s, e) l
 checkNumber :: String -> Int -> Bool
 checkNumber s c
   | c > (div (length s) 2) = False
+  | mod (length s) c /= 0  = checkNumber s (c+1)
   | otherwise              = if (iCheckNumber chunks) then True else (checkNumber s (c+1))
     where chunks   = Splitter.chunksOf c s
 
