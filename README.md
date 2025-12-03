@@ -36,3 +36,18 @@ So I do ugly conversaions between `String` and `Int` a lot because I need to do 
 ### Part 2
 
 This is, actually not much trickier... The main difference is iterating up through a list of possible ways of splitting each number, but you can avoid a significant number of checks by ignoring cases where the list won't split easily. In Part 1 I checked whether the input was an odd length, now I check whether the `mod` of the input length and the size of chunks is 0 or not...
+
+
+## Day 3
+
+### Part 1
+
+I'm sure I could have done this part much smoother by using a couple of `max` functions rather than my more manual recursive method, but meh... who cares...
+
+### Part 2
+
+Oh. 
+
+Complete refactor of the code. Well... not completely, just enough... I needed to keep better track of postioions of things though so maybe `max` functions wouldn't have worked.
+
+Took me a bit to get the counting logic right in finding the highest and it's position - I thought I could track position int he tuple... why am I such an idiot?
