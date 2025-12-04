@@ -51,3 +51,13 @@ Oh.
 Complete refactor of the code. Well... not completely, just enough... I needed to keep better track of postioions of things though so maybe `max` functions wouldn't have worked.
 
 Took me a bit to get the counting logic right in finding the highest and it's position - I thought I could track position int he tuple... why am I such an idiot?
+
+## Day 4
+
+### Part 1
+
+Why do I not have a `countAround` function yet... oh yeah, because it's all too specific every puzzle...
+
+### Part 2
+
+OK, let's reverse the polarity of some of the conditionals and add some iterative... and blam
