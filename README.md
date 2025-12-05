@@ -61,3 +61,8 @@ Why do I not have a `countAround` function yet... oh yeah, because it's all too 
 ### Part 2
 
 OK, let's reverse the polarity of some of the conditionals and add some iterative... and blam
+
+
+## Day 5
+
+I was sure this was going to be best done in `Set`s for both parts, but no... everything is too big. Better to let it all just stay as Ranges and calculate based on them
