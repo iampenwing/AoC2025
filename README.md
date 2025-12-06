@@ -66,3 +66,9 @@ OK, let's reverse the polarity of some of the conditionals and add some iterativ
 ## Day 5
 
 I was sure this was going to be best done in `Set`s for both parts, but no... everything is too big. Better to let it all just stay as Ranges and calculate based on them
+
+## Day 6
+
+Oooh... was expecting something harder here. This is just about getting the list of numbers parsed properly and bam.
+
+Part 2 wasn't even much harder when you recognise you can just rotate the grid and bam!
