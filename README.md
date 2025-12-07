@@ -72,3 +72,16 @@ I was sure this was going to be best done in `Set`s for both parts, but no... ev
 Oooh... was expecting something harder here. This is just about getting the list of numbers parsed properly and bam.
 
 Part 2 wasn't even much harder when you recognise you can just rotate the grid and bam!
+
+
+## Day 7
+
+Assumptions made - Splitters are not on either edge
+
+### Part 1
+
+Finally I can use Sets and just track the potential beams rather than trying to rewrite the grid and eugh...
+
+### Part 2
+
+OK, I can't just do something simple... complete rewrite (which does not help in Part 1) to start at the bottom of the grid and count pathways based on appropriately combining lower values
